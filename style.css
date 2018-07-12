@@ -1,9 +1,4 @@
-/*p ,a:hover{
-  color: red;
-  width: 500px;
-  border: 1px solid black;
-}*/
-a{
+ a{
   text-decoration: none;
 }
 p, li {
@@ -14,24 +9,50 @@ p, li {
 }
 html {
   background-color: #00539F;
+
 }
-body {
+.mozilla {
   width: 600px;
   margin: 0 auto;
   background-color: #FF9500;
   padding: 0 20px 20px 20px;
-  border: 5px solid black;
+  box-shadow: 5px 10px;
 }
 img {
   display: block;
   margin: 0 auto;
 }
 h1 {
-  /*text-transform: uppercase;*/
+ 
   font-size: 60px;
   text-align: center;
   margin: 0 ;
   padding: 20px 0;
   color: #00539F;
   text-shadow: 3px 3px 1px #000000;
+}
+
+.head {
+  color:#000000;
+  font-size: 16px;
+  padding: 0 20px 20px 20px;
+  box-shadow: 5px 10px ;
+  background-color: #FF9500;
+ display: block;
+ text-decoration: none;
+ margin: 25px auto;
+ text-align: center;
+}
+
+}
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: whitesmoke;
+}
+
+a:active {
+    color: blue;
 }
