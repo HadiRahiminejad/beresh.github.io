@@ -42,6 +42,10 @@ h1 {
   text-align: center;
   margin: 0 auto 0 ;
   box-shadow: 5px 10px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 
 }
 
