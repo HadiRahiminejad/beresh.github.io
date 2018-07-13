@@ -15,7 +15,7 @@ html {
 
 .mozilla {
   width: 600px;
-  margin: 0 auto;
+  margin: 0 auto 100px;
   background-color: #FF9500;
   padding: 0 20px 20px 20px;
   box-shadow: 5px 10px;
