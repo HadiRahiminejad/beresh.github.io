@@ -1,4 +1,18 @@
- var mybtn = document.querySelector('button');
+var myImage = document.querySelector('img');
+
+ myImage.onclick = function() {
+
+    var mySrc = myImage.getAttribute('src');
+
+   if(mySrc ==='images/index.jpg') {
+      myImage.setAttribute('src','images/images.jpg');
+   }else {
+     myImage.setAttribute('src','images/index.jpg');
+   }
+ }
+
+
+var mybtn = document.querySelector('button');
  var myheading =document.querySelector('h1');
 
 function setUserName() {
@@ -19,16 +33,4 @@ mybtn.onclick = function() {
   setUserName();
 }
 
-
- var myImage = document.querySelector('img');
-
- myImage.onclick = function() {
-
-    var mySrc = myImage.getAttribute('src');
-
-   if(mySrc ==='images/index.jpg') {
-      myImage.setAttribute('src','images/images.jpg');
-   }else {
-     myImage.setAttribute('src','images/index.jpg');
-   }
- }
+ 
