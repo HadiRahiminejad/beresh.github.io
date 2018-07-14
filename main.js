@@ -4,10 +4,10 @@ var myImage = document.querySelector('img');
 
     var mySrc = myImage.getAttribute('src');
 
-   if(mySrc ==='images/index.jpg') {
-      myImage.setAttribute('src','images/images.jpg');
+   if(mySrc ==='index.jpg') {
+      myImage.setAttribute('src','images.jpg');
    }else {
-     myImage.setAttribute('src','images/index.jpg');
+     myImage.setAttribute('src','index.jpg');
    }
  }
 
