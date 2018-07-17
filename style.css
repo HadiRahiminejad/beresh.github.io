@@ -6,7 +6,7 @@ p, li {
 }
 
 html {
-  background-color: #00539F  ;
+  background-color: #cccccc;
 }
 
 .mozilla {
@@ -47,6 +47,7 @@ h1 {
   width: 100%;
 
 }
+
  a{
   text-decoration: none;
 }
