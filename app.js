@@ -1,11 +1,11 @@
  
 var activePlayer, scores, roundScore ;
  
+   
+function newGame() {
    scores = [0,0];
    roundScore = 0;
    activePlayer = 0;
-
-function newGame() {
 
    document.querySelector('.dice').style.display = 'none';
    
@@ -18,7 +18,7 @@ function newGame() {
    document.querySelector('.player-0-panel').classList.add('active');
    document.querySelector('.btn-hold').disabled = false;
    document.querySelector('.btn-roll').disabled = false;
-   
+   };
     document.querySelector('.btn-roll').addEventListener('click', function() {
        
        // 1. random number
@@ -74,12 +74,12 @@ function newGame() {
    
               document.querySelector('.dice').style.display = 'none';
    }
-};
 
-newGame();
+
+
 
 document.querySelector('.btn-new').addEventListener('click' , function(){
    newGame();
 });
 
-
+newGame();
