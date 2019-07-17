@@ -1,52 +1,41 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
+        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+        <link type="text/css" rel="stylesheet" href="style.css">
+        
+        <title>Pig Game</title>
+    </head>
 
-  <link rel="shortcut icon"   href="bereshicon.png"  type="image/x-icon">
-    <meta charset="utf-8">
-    <title>My test page</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    
-   <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
-   <script>
-$(document).ready(function(){
-    $("html").hover(function(){
-        $(this).css("background-color", "#00539F");
-    });
- });
-</script>
-   
-  </head>
-  <body>
-  <div class="mozilla">
-
-    <h1>My main title</h1>
-
-    <img src="index.jpg" alt="My test image" title="Please click on the image">
-
-    <p>At Mozilla, we`re a global community of<p>
-
-      <ul>
-        <li>technologists</li>
-        <li>thinkers</li>
-        <li>builders</li>
-     </ul>
-
-     <p>working together  to keep the Internet alive and accessible, so people worldwide can be informed contributors and
-       creators of the Web. We believe this act of human collaboration across an open platform is essential to individual
-       growth and our collective future.</p>
-
-     <p>Read the <a href="https://www.mozilla.org/en-US/about/manifesto/" target="_blank">Mozilla Manifesto</a> to learn even more about the values and principles that guide the pursuit of our mission.</p>
-     <button>Change user</button>
-
-     <script src="main.js"></script>
-       </div>
-     <div class="footer">
-
-        <a href="http://www.hadirahiminejad.ir" target="_blank" title=' "hadirahiminejad.ir" web page is a trial version for educational purposee'><b>To see more </b></a>
-
-     </div>
-  </body>
-
+    <body>
+        <div class="wrapper clearfix">
+            <div class="player-0-panel active">
+                <div class="player-name" id="name-0">Player 1</div>
+                <div class="player-score" id="score-0">43</div>
+                <div class="player-current-box">
+                    <div class="player-current-label">Current</div>
+                    <div class="player-current-score" id="current-0">11</div>
+                </div>
+            </div>
+            
+            <div class="player-1-panel">
+                <div class="player-name" id="name-1">Player 2</div>
+                <div class="player-score" id="score-1">72</div>
+                <div class="player-current-box">
+                    <div class="player-current-label">Current</div>
+                    <div class="player-current-score" id="current-1">0</div>
+                </div>
+            </div>
+            
+            <button class="btn-new"><i class="ion-ios-plus-outline"></i>New game</button>
+            <button class="btn-roll"><i class="ion-ios-loop"></i>Roll dice</button>
+            <button class="btn-hold"><i class="ion-ios-download-outline"></i>Hold</button>
+            
+            <img src="dice-5.png" alt="Dice" class="dice">
+        </div>
+        
+        <script src="app.js"></script>
+    </body>
 </html>
