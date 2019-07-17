@@ -1,5 +1,5 @@
  # https://beresh.github.io
-this is a cool game try it :)
+This is a cool game try it :)
 
 
 GAME RULES:
