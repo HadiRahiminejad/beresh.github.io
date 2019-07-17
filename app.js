@@ -16,6 +16,7 @@ function newGame() {
    document.getElementById('name-0').textContent = 'Player 1';
    document.getElementById('name-1').textContent = 'Player 2';
    document.querySelector('.player-0-panel').classList.add('active');
+   document.querySelector('.player-1-panel').classList.remove('active');
    document.querySelector('.btn-hold').disabled = false;
    document.querySelector('.btn-roll').disabled = false;
    };
@@ -74,9 +75,6 @@ function newGame() {
    
               document.querySelector('.dice').style.display = 'none';
    }
-
-
-
 
 document.querySelector('.btn-new').addEventListener('click' , function(){
    newGame();
